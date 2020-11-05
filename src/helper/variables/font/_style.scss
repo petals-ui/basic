@@ -1,5 +1,7 @@
-$buds--font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, "Pingfang SC", "Microsoft Yahei", Sans-serif !default;
-$buds--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+@import './properties';
+
+$buds--font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, 'Pingfang SC', 'Microsoft Yahei', Sans-serif !default;
+$buds--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
 $buds--font-family: var($__buds--font-family, $buds--font-family-sans-serif) !default;
 
 // $buds--font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
@@ -21,11 +23,11 @@ $buds--line-height: var($__buds--line-height, 1.5) !default;
 $buds--line-height-lg: var($__buds--line-height-lg, 2) !default;
 $buds--line-height-sm: var($__buds--line-height-sm, 1.25) !default;
 
-$buds--h1-font-size: $buds--font-size * 2.5 !default;
-$buds--h2-font-size: $buds--font-size * 2 !default;
-$buds--h3-font-size: $buds--font-size * 1.75 !default;
-$buds--h4-font-size: $buds--font-size * 1.5 !default;
-$buds--h5-font-size: $buds--font-size * 1.25 !default;
+$buds--h1-font-size: calc($buds--font-size * 2.5) !default;
+$buds--h2-font-size: calc($buds--font-size * 2) !default;
+$buds--h3-font-size: calc($buds--font-size * 1.75) !default;
+$buds--h4-font-size: calc($buds--font-size * 1.5) !default;
+$buds--h5-font-size: calc($buds--font-size * 1.25) !default;
 $buds--h6-font-size: $buds--font-size !default;
 
 // $buds--headings-margin-bottom: $buds--spacer / 2 !default;

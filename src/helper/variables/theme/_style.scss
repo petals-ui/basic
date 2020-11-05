@@ -1,3 +1,5 @@
+@import './properties';
+
 $buds--primary: var($__buds--primary, #3882f5) !default;
 $buds--primary-hover: var($__buds--primary-hover, $buds--primary) !default;
 $buds--primary-active: var($__buds--primary-active, $buds--primary) !default;
