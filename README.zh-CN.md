@@ -1,6 +1,6 @@
-# Petals basic
-
 [English](./README.md) | 简体中文
+
+# Petals basic
 
 前端 UI 开发的基础设施。
 
