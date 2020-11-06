@@ -2,7 +2,7 @@
 
 # Petals 基本
 
-前端 UI 开发的基础设施。这个包中含有：
+这个包是前端 UI 开发的基础设施，它含有：
 
 - 为 web 应用而准备的 CSS 基本样式（基于 [normalize.css](https://github.com/necolas/normalize.css) 与 [SUIT CSS base](https://github.com/suitcss/base)）
 - CSS 工具类（基于 [SUIT CSS utilities](https://github.com/suitcss/utils)）
@@ -14,7 +14,7 @@
 
 在终端中执行 `npm i -S @petals/basic` 之后，你会看到文件夹中既有 `.css` 文件又有 `.scss`。其中，`.css` 文件是直接拿来用的，`.scss` 文件是供二次开发使用。
 
-为了满足不同场景的使用，将样式文件分为 3 各版本：
+为了满足不同场景的使用，将样式文件分为三个版本：
 
 | 版本    | 说明                   |
 | ------- | ---------------------- |
