@@ -1,12 +1,10 @@
 [English](./README.md) | 简体中文
 
-# Petals basic
+# Petals 基本
 
-前端 UI 开发的基础设施。
+前端 UI 开发的基础设施。这个包中含有：
 
-这个包中含有：
-
-- 为 web 应用而准备地 CSS 基本样式（基于 [normalize.css](https://github.com/necolas/normalize.css) 与 [SUIT CSS base](https://github.com/suitcss/base)）
+- 为 web 应用而准备的 CSS 基本样式（基于 [normalize.css](https://github.com/necolas/normalize.css) 与 [SUIT CSS base](https://github.com/suitcss/base)）
 - CSS 工具类（基于 [SUIT CSS utilities](https://github.com/suitcss/utils)）
 - Sass 变量、函数和混入（基于 [Trick](https://github.com/ourai/trick)）
 
